@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+  font-family: "Karla", sans-serif;
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  backdrop-filter: blur(5px);
+  background: url(../public/Images/bg1.jpg)   ;
+  background-size: cover; 
+}
+
+*{
+  color: azure;
+  margin: 0px;
+  padding: 0px;
+}
