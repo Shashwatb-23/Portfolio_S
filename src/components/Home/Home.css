@@ -1,0 +1,38 @@
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container{
+    margin: 10px 5px;
+    padding: 25px 90px;}
+
+.profile-pic{
+    width: 250px;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+.profile-pic:hover{
+    filter: grayscale(0%);
+    transition: all ease-in 100ms;
+}
+
+.intro{
+    background: rgba(128, 128, 128, 0.219);
+    padding: 15px;
+    border-radius: 8px;
+}
+.intro:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s ;
+}
+
+.myself{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+

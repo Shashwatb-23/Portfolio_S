@@ -1,0 +1,16 @@
+.head{
+    background: rgba(128, 128, 128, 0.219);
+    width: 100%;
+    padding: 15px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.nav-list{
+    font-size: large;
+    font-weight: 600;
+}

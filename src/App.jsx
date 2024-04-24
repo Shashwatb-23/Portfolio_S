@@ -1,6 +1,8 @@
 import './App.css'
-import Header from "./components/Header"
-// import Main from "./components/Main"
+import Header from "./components/Header/Header"
+import "./components/Header/Header.css"
+import Home from "./components/Home/Home"
+import"./components/Home/Home.css"
 
 
 function App() {
@@ -8,7 +10,7 @@ function App() {
   return (
       <div>
         <Header/>
-        {/* <Main /> */}
+        <Home />
       </div>
   )
 }
