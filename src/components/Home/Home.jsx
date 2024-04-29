@@ -1,5 +1,6 @@
 export default function Home(){
     return(
+        
         <div id="home">
             <div className="profile-container">
                 <img src="/Images/profile photo/IMG-20230121-WA0110.jpg" alt="profile-pic" className="profile-pic" />

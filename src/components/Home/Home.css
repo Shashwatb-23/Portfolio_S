@@ -15,7 +15,7 @@
 
 .profile-pic:hover{
     filter: grayscale(0%);
-    transition: all ease-in 100ms;
+    transition: all ease-in-out 0.2s;
 }
 
 .intro{
@@ -24,7 +24,7 @@
     border-radius: 8px;
 }
 .intro:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: all ease-in-out 0.2s ;
 }
 
