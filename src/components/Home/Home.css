@@ -1,13 +1,14 @@
-#home{
+/* #home{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.profile-container{
+} */
+/* .profile-container{
     margin: 10px 5px;
-    padding: 25px 90px;}
+    padding: 25px 90px;
+} */
 
-.profile-pic{
+/* .profile-pic{
     width: 250px;
     border-radius: 15px;
     filter: grayscale(100%);
@@ -16,7 +17,7 @@
 .profile-pic:hover{
     filter: grayscale(0%);
     transition: all ease-in-out 0.2s;
-}
+} */
 
 .intro{
     background: rgba(128, 128, 128, 0.219);
