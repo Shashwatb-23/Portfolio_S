@@ -1,16 +1,15 @@
 import './App.css'
 import Header from "./components/Header/Header"
-import "./components/Header/Header.css"
 import Home from "./components/Home/Home"
-import"./components/Home/Home.css"
-
+import About from "./components/About/About"
 
 function App() {
 
   return (
       <div>
-        <Header/>
+        <Header />
         <Home />
+        <About />
       </div>
   )
 }
