@@ -27,7 +27,7 @@ export default function Home(){
                         <a href="https://github.com/Shashwatb-23"><FaGithub /></a>    
                     </div>
                     <div className=" cursor-pointer bg-gradient-to-r  from-green-500 to-green-900 p-3 rounded-lg">
-                        <a href=""><SiHackerrank /></a>    
+                        <a href="https://www.hackerrank.com/profile/shashwatbhardwa1"><SiHackerrank /></a>    
                     </div>
                     <div className=" cursor-pointer bg-gradient-to-r from-cyan-300 to-teal-800 p-3 rounded-lg">
                         <a href="https://app.netlify.com/teams/shashwatb-23/overview"><SiNetlify /></a>    
@@ -38,7 +38,7 @@ export default function Home(){
         </div>
 
         <div className="flex justify-center gap-10 mx-auto mt-10 bg-gradient-to-r from-gray-500 to-gray-950 w-5/12 py-3 opacity-90 hover:scale-105 transition-all rounded-lg">
-            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-r from-slate-50 to-slate-600 rounded-lg">Resume</button>
+            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-r from-slate-50 to-slate-600 rounded-lg"><a href="https://docs.google.com/document/d/1sG_do5fFiLdB4qxTkXtdGbkJTeNt2NMXI9aPPfqCo5c/edit?usp=sharing" target="_blank">Resume</a></button>
             <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-r from-slate-50 to-slate-600 rounded-lg">Contact-Info</button>
         </div>
 
