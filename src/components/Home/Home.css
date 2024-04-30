@@ -19,21 +19,21 @@
     transition: all ease-in-out 0.2s;
 } */
 
-.intro{
+/* .intro{
     background: rgba(128, 128, 128, 0.219);
     padding: 15px;
     border-radius: 8px;
-}
-.intro:hover{
+} */
+/* .intro:hover{
     transform: scale(1.01);
     transition: all ease-in-out 0.2s ;
-}
+} */
 
-.myself{
+/* .myself{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-}
+} */
 

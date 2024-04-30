@@ -6,7 +6,7 @@ body{
   height: 100%; 
   width: 100%; 
   backdrop-filter: blur(5px);
-  background: url(../public/Images/bg1.jpg)   ;
+  background: url(../Images/bg1.jpg)   ;
   background-size: cover; 
 }
 
@@ -14,7 +14,6 @@ body{
   color: azure;
   margin: 0px;
   padding: 0px;
-  cursor: default;
   user-select: none;
   scroll-behavior: smooth;
 }
