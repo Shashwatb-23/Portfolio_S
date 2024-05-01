@@ -21,25 +21,25 @@ export default function Home(){
 
                 <div className=" flex mt-5 justify-evenly text-4xl ">
                     <div className=" cursor-pointer bg-gradient-to-r from-blue-600 to-blue-950 p-3 rounded-lg">
-                        <a href="https://www.linkedin.com/in/shashwat-bhardwaj-73591b20b/"><FaLinkedin /></a> 
+                        <a href="https://www.linkedin.com/in/shashwat-bhardwaj-73591b20b/" target="_blank"><FaLinkedin /></a> 
                     </div>
                     <div className=" cursor-pointer bg-gradient-to-r from-gray-400 to-gray-800 p-3 rounded-lg">
-                        <a href="https://github.com/Shashwatb-23"><FaGithub /></a>    
+                        <a href="https://github.com/Shashwatb-23" target="_blank"><FaGithub /></a>    
                     </div>
                     <div className=" cursor-pointer bg-gradient-to-r  from-green-500 to-green-900 p-3 rounded-lg">
-                        <a href="https://www.hackerrank.com/profile/shashwatbhardwa1"><SiHackerrank /></a>    
+                        <a href="https://www.hackerrank.com/profile/shashwatbhardwa1" target="_blank"><SiHackerrank /></a>    
                     </div>
                     <div className=" cursor-pointer bg-gradient-to-r from-cyan-300 to-teal-800 p-3 rounded-lg">
-                        <a href="https://app.netlify.com/teams/shashwatb-23/overview"><SiNetlify /></a>    
+                        <a href="https://app.netlify.com/teams/shashwatb-23/overview" target="_blank"><SiNetlify /></a>    
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <div className="flex justify-center gap-10 mx-auto mt-10 bg-gradient-to-r from-gray-500 to-gray-950 w-5/12 py-3 opacity-90 hover:scale-105 transition-all rounded-lg">
-            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-r from-slate-50 to-slate-600 rounded-lg"><a href="https://docs.google.com/document/d/1sG_do5fFiLdB4qxTkXtdGbkJTeNt2NMXI9aPPfqCo5c/edit?usp=sharing" target="_blank">Resume</a></button>
-            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-r from-slate-50 to-slate-600 rounded-lg">Contact-Info</button>
+        <div className="flex justify-center gap-10 mx-auto mt-10 bg-gradient-to-l from-cyan-200 to-teal-800 w-5/12 py-3 opacity-80 hover:scale-105 transition-all rounded-lg">
+            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-tl from-white to-cyan-950 font-bold rounded-lg"><a href="https://docs.google.com/document/d/1sG_do5fFiLdB4qxTkXtdGbkJTeNt2NMXI9aPPfqCo5c/edit?usp=sharing" target="_blank">Resume</a></button>
+            <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-tl from-white to-cyan-950 font-bold rounded-lg">Contact-Info</button>
         </div>
 
     </section>
