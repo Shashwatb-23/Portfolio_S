@@ -1,13 +1,12 @@
 export default function About(){
     return(
         <section>
-            <div className="flex justify-center ">
-                <div>
+            <div >
+                <div className="flex flex-row">
                     <img src="public/Images/profile photo/2.jpg" alt="2nd profile" className="w-16" />
-                    <h1>About</h1>
-                </div>
+                    <h1 className="inline-block">About</h1>
                 <div>
-                    
+                </div>
                 </div>
             </div>
         </section>
