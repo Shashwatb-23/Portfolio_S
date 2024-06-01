@@ -8,7 +8,7 @@ export default function Home(){
     <>    
         <div id="home" className=" flex justify-center items-center">
             <div className=" my-10 mx-2 px-24 py-10">
-                <img src="/Images/profile photo/IMG-20230121-WA0110.jpg" alt="profile-pic" className=" w-64 rounded-2xl grayscale hover:grayscale-0 transition-all  hover:scale-75" />
+                <img src="/Images/profile photo/IMG-20230121-WA0110.jpg" alt="profile-pic" className=" w-64 rounded-2xl grayscale hover:grayscale-0 transition-all  " />
             </div>
 
             <div className=" p-4 m-2 rounded-lg bg-zinc-900  text-xl hover:scale-105 transition-all">

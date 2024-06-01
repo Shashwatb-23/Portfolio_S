@@ -2,7 +2,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs"
 import { Link } from "react-router-dom"
 export default function Header(){
     return(
-        <nav  className="head p-3 w-full bg-zinc-900 bg-opacity-85">
+        <nav  className="head p-3 w-full bg-zinc-900 bg-opacity-85 sticky">
             <div className="heading_content ">
                 <ul className="nav-links flex justify-evenly align-middle">
                     <Link to="/">
