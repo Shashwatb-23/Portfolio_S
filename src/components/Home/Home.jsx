@@ -5,7 +5,7 @@ import { SiNetlify } from "react-icons/si";
 
 export default function Home(){
     return(
-    <section>    
+    <>    
         <div id="home" className=" flex justify-center items-center">
             <div className=" my-10 mx-2 px-24 py-10">
                 <img src="/Images/profile photo/IMG-20230121-WA0110.jpg" alt="profile-pic" className=" w-64 rounded-2xl grayscale hover:grayscale-0 transition-all  hover:scale-75" />
@@ -42,6 +42,6 @@ export default function Home(){
             <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-tl from-white to-cyan-950  rounded-lg">Contact-Info</button>
         </div>
 
-    </section>
+    </>
     )
 }
