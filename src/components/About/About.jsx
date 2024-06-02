@@ -1,6 +1,14 @@
 import Card from "./Card"
 import data from "./data";
+import Slider from "react-slick";
 export default function About(){
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    };
     return(
         <>
             <div className="flex justify-center">
@@ -9,7 +17,7 @@ export default function About(){
 
 {/* ===================================================================================================================================== */}
 
-            <div className="bg-slate-600 mx-20 p-3 pl-7 mt-8 bg-opacity-70 rounded-md hover:scale-105 transition-all ">
+            <div className="bg-slate-600 mx-20 p-3 pl-7 mt-8 bg-opacity-80 rounded-md ">
                 <div>
                     <h1 className="text-5xl text-sky-500 font-semibold cursor-pointer">Frontend</h1>
                     <h1 className="text-5xl text-sky-500 font-semibold cursor-pointer">Developer.</h1>
@@ -31,16 +39,17 @@ export default function About(){
 
                     <h3 className="ml-28 mt-14 text-4xl font-medium cursor-pointer hover:text-blue-400">What I&apos;m Doing</h3>
 
-            <div >
-
+            <div className=" rounded-md w-4/5 ml-48 my-10">
+            <Slider {...settings}>
             {
             data.map((d, idx)=>{
                 return(
                     <Card key={idx} img={d.img} title={d.title} desc={d.desc}/>
                 )
             })}
-
+            </Slider>
             </div>
+
         </>
     )
 }
