@@ -9,7 +9,7 @@ export default function About(){
 
 {/* ===================================================================================================================================== */}
 
-            <div className="bg-slate-600 mx-20 p-3 pl-7 mt-8 bg-opacity-70 rounded-md hover:scale-105 transition-all">
+            <div className="bg-slate-600 mx-20 p-3 pl-7 mt-8 bg-opacity-70 rounded-md hover:scale-105 transition-all ">
                 <div>
                     <h1 className="text-5xl text-sky-500 font-semibold cursor-pointer">Frontend</h1>
                     <h1 className="text-5xl text-sky-500 font-semibold cursor-pointer">Developer.</h1>
@@ -33,12 +33,13 @@ export default function About(){
 
             <div >
 
-            {data.map((d, idx)=>{
+            {
+            data.map((d, idx)=>{
                 return(
                     <Card key={idx} img={d.img} title={d.title} desc={d.desc}/>
                 )
             })}
-            
+
             </div>
         </>
     )
