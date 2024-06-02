@@ -1,4 +1,5 @@
 import Card from "./Card"
+import data from "./data";
 export default function About(){
     return(
         <>
@@ -32,8 +33,12 @@ export default function About(){
 
             <div >
 
-                <Card/>
-
+            {data.map((d, idx)=>{
+                return(
+                    <Card key={idx} img={d.img} title={d.title} desc={d.desc}/>
+                )
+            })}
+            
             </div>
         </>
     )
