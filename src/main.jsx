@@ -3,6 +3,8 @@ import App from './App.jsx'
 import './index.css'
 import Home from "./components/Home/Home.jsx"
 import About from "./components/About/About"
+// import Card from "./components/Card/Card"
+// import Carousel from './components/About/Carousel';
 import Skill from "./components/Skill/Skill"
 import Project from './components/Project/Project.jsx'
 import Contact from './components/Contact/Contact.jsx'
