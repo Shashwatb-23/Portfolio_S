@@ -1,4 +1,3 @@
-import { BsFillMoonStarsFill } from "react-icons/bs"
 import { Link } from "react-router-dom"
 export default function Header(){
     return(
@@ -30,7 +29,6 @@ export default function Header(){
                                 Contact
                         </li>
                     </Link>
-                        <li className=" text-lg font-bold cursor-pointer pt-1 hover:scale-150 transition-all "><BsFillMoonStarsFill /></li>
                 </ul>
             </div>
         </nav>
