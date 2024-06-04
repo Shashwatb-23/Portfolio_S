@@ -37,7 +37,7 @@ export default function Home(){
             </div>
         </div>
 
-        <div className="flex justify-center gap-10 mx-auto mt-10 bg-gradient-to-l from-cyan-200 to-teal-800 w-5/12 py-3 opacity-80  rounded-lg">
+        <div className="flex justify-center gap-10 mx-auto mt-10 bg-gradient-to-r from-blue-600 to-blue-950 w-5/12 py-3 opacity-80  rounded-lg">
             <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-tl from-white to-cyan-950  rounded-lg hover:scale-110 transition-all"><a href="https://drive.google.com/file/d/1HhMWdkRJ2faAn4d-L6tQXoZTWfXkns5s/view?usp=sharing" target="_blank">Resume</a></button>
             <button className="m-1 p-1.5 px-5 text-black font-bold bg-gradient-to-tl from-white to-cyan-950  rounded-lg hover:scale-110 transition-all"><Link to="/contact">Contact-Info</Link></button>
         </div>
