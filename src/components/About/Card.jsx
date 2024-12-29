@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 function Card(props) {
     return(
             <>
-                <div className="grid justify-center justify-items-center  ">
+                <div className="grid justify-center justify-items-center ">
                 
 
                     <div className="bg-slate-600 mx-20 p-3 px-7 py-7 mt-8 opacity-90 rounded-md mb-6 ">

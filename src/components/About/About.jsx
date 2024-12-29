@@ -37,9 +37,9 @@ export default function About(){
                 </div>
             </div>
 
-                    <h3 className="ml-28 mt-14 text-4xl font-medium cursor-pointer hover:text-blue-400">What I&apos;m Doing</h3>
+                    <h3 className="ml-28 mt-14 text-4xl font-bold cursor-pointer hover:text-blue-400 grid justify-center">What I&apos;m Doing</h3>
 
-            <div className=" rounded-md w-4/5 ml-48 my-10">
+            <div className=" rounded-md w-4/5 ml-48 my-10 backdrop-blur-sm">
             <Slider {...settings}>
             {
             data.map((d, idx)=>{
