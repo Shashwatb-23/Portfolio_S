@@ -2,16 +2,15 @@ import projects from "./P_data";
 
 const ProjectCard = ({ title, p_img, description, link }) => {
     return (
-        <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
-            <h3 className=" text-gray-800 text-xl font-bold mb-2 cursor-default underline">{title}</h3>
+        <div className="bg-gradient-to-r from-slate-900 to-slate-700 shadow-md rounded-lg p-4 hover:shadow-lg  duration-300 hover:scale-95 transition-all">
+            <h3 className=" text-white text-xl font-bold mb-2 cursor-default underline">{title}</h3>
             <img src={p_img}  alt="" className="h-28 w-28 text-white rounded-md  mx-auto my-2"/>
-            <p className="text-gray-600 mb-4 cursor-default">{description}</p>
+            <p className="text-white mb-4 cursor-default">{description}</p>
             <a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md transition-colors duration-300"
-            >
+            className="text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md transition-colors duration-300 mx-auto block text-center ">
             View Project
             </a>
         </div>

@@ -3,7 +3,7 @@ const projects = [
         title: "Meme Generator",
         p_img:`public/Images/icons/Meme Generator.jfif`,
         description: "A fun web application to create and customize memes.",
-        link: "#",
+        link: "https://buzzwords-generator.netlify.app/",
     },
     {
         title: "Order Food Now",
