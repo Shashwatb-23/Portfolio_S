@@ -6,7 +6,7 @@ const Contact = () => {
 
 <div className=" mx-6 md:mx-40 rounded-2xl mt-3">
     {/* Map Section */}
-    <div className="grid justify-center bg-slate-400 rounded-md p-5 md:mx-60 mt-3 bg-opacity-0 w-max contents">
+    <div className=" justify-center bg-slate-400 rounded-md p-5 md:mx-60 mt-3 bg-opacity-0 w-max contents">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60904.86590445068!2d78.39522586953123!3d17.433172913760796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99e889c2d9f5%3A0x83149deb17b1a517!2sNew%20SBH%20Colony%2C%20Himayatnagar%2C%20Hyderabad%2C%20Telangana%20500029!5e0!3m2!1sen!2sin!4v1717340763956!5m2!1sen!2sin"
             width="100%"
