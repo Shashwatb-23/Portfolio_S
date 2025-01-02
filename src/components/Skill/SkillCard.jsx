@@ -4,7 +4,7 @@ const SkillCard = ({ title, icon, skills, otherTechnologies, gradient }) => {
             className={`rounded-3xl p-4 w-full md:w-1/3 shadow-lg ${gradient} mx-auto`}
         >
             <div className="flex flex-col items-center md:flex-row justify-between mb-4">
-            <h3 className="text-xl md:text-2xl font-bold underline text-center text-white">
+            <h3 className="text-xl md:text-2xl font-bold underline text-center text-white cursor-default">
                 {title}
             </h3>
             <img
@@ -31,10 +31,10 @@ const SkillCard = ({ title, icon, skills, otherTechnologies, gradient }) => {
             ))}
             {otherTechnologies && (
                 <div className="mt-4 bg-gradient-to-r from-blue-600 to-blue-950 p-2 rounded-xl">
-                <h4 className="text-center text-white font-semibold underline mb-2 text-sm md:text-lg">
+                <h4 className="text-center text-white font-semibold underline mb-2 text-sm md:text-lg cursor-default">
                     Other Technologies:
                 </h4>
-                <p className="text-xs md:text-sm text-white text-center">
+                <p className="text-xs md:text-sm text-white text-center cursor-default">
                     {otherTechnologies}
                 </p>
                 </div>
