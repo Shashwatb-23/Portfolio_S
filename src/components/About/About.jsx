@@ -66,20 +66,20 @@ import data from "./data";
             </h3>
 
             {/* Custom Carousel */}
-            <div className=" md:w-4/5 mx-auto mt-10 flex overflow-x-auto gap-6 py-4 px-6 bg-gradient-to-r from-slate-200 to-slate-900 rounded-md">
+            <div className="w-full md:w-4/5 mx-auto mt-10 flex overflow-x-auto gap-6 py-4 px-6">
                 {data.map((d, idx) => (
-                <div
+                    <div
                     key={idx}
-                    className="min-w-[250px] md:min-w-[300px] bg-slate-700 rounded-lg shadow-lg p-4 flex-shrink-0"
-                >
+                    className="min-w-[250px] md:min-w-[300px] w-min bg-slate-700 rounded-lg shadow-lg p-4 flex-shrink-0"
+                    >
                     <img
-                    src={d.img}
-                    alt={d.title}
-                    className=" h-40 object-cover rounded-md mb-4"
+                        src={d.img}
+                        alt={d.title}
+                        className="h-40 w-24 object-contain m-auto rounded-md"
                     />
-                    <h3 className="text-xl font-bold text-white mb-2">{d.title}</h3>
-                    <p className="text-sm text-gray-300">{d.desc}</p>
-                </div>
+                    <h3 className="text-xl font-bold text-white mb-2 text-center">{d.title}</h3>
+                    <p className="text-sm text-gray-300 text-center">{d.desc}</p>
+                    </div>
                 ))}
             </div>
         </>
