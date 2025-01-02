@@ -50,7 +50,7 @@ export default function Home(){
     <div className="flex flex-col sm:flex-row justify-center gap-5 md:gap-10 mx-auto mt-10 bg-gradient-to-r from-blue-600 to-blue-950 w-11/12 sm:w-8/12 md:w-6/12 lg:w-5/12 py-3 opacity-80 rounded-lg">
         <button className="m-1 p-1.5 px-3 sm:px-5 text-black font-bold bg-white rounded-lg hover:scale-110 transition-all">
             <a
-            href="https://drive.google.com/file/d/1HhMWdkRJ2faAn4d-L6tQXoZTWfXkns5s/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HF-5iulOt3CDTG_Y25u9eiuaWsEAKxGC/view?usp=sharing"
             target="_blank"
             >
             Resume
